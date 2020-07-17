@@ -1,0 +1,63 @@
+body
+    {background-color: rgb(255, 255, 227);}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 500;}
+
+@font-face {
+font-family: "Roboto-Light";
+src: url("fonts/Roboto/Roboto-Light.ttf");
+font-weight: 300;}
+
+
+h1
+    {color: #da291c;
+    font-family: 'Ranchers', cursive;
+    text-align: justify;
+    text-transform: uppercase;}
+
+h2 
+    {color: #da291c;
+    font-family:"Roboto";}
+
+h3 
+    {color: #ae2116;
+    font-family:"Roboto";}
+
+p 
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto-Light";
+    font-size: 18 px;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: 300;}
+
+
+td 
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto-Light";}
+
+
+tfoot 
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto-Light";}
+
+
+caption 
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto";}
+
+li 
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto-Light";}
+
+tr 
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto-Light";}
