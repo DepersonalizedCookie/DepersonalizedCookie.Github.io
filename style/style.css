@@ -108,27 +108,40 @@ tr
  }
 
 #burger-home 
-        {width: 50px;}
+        {width: 50px;
+        position: fixed;
+        top: 10px;
+        left: 1400px}
 
 #impossible-burger
         {width: 200px;
-        box-shadow: 3px 0 7px gray;}
+        box-shadow: 3px 0 7px gray;
+        position: relative;
+        left: 1000px}
 
 #veggie-burger
         {width: 200px;
-        box-shadow: 3px 0 7px gray;}
+        box-shadow: 3px 0 7px gray;
+        position: relative;
+        left: 1000px}
 
 #seitan-surprise
         {width: 200px;
-        box-shadow: 3px 0 7px gray;}
+        box-shadow: 3px 0 7px gray;
+        position: relative;
+        left: 1000px}
 
 #falafel-fantasy
         {width: 200px;
-        box-shadow: 3px 0 7px gray;}
+        box-shadow: 3px 0 7px gray;
+        position: relative;
+        left: 1000px}
 
 #sea-no-evil
         {width: 200px;
-        box-shadow: 3px 0 7px gray;}
+        box-shadow: 3px 0 7px gray;
+        position: relative;
+        left: 1000px}
 
 #order-now
         {width: 300px;}
