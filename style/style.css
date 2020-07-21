@@ -2,9 +2,9 @@ body
     {background-color: rgb(255, 255, 227);}
 
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@font-face 
+            {font-family: "Ranchers";
+            src: url("fonts/Ranchers/Ranchers-Regular.ttf");}
 
 @font-face {
     font-family: "Roboto";
@@ -19,9 +19,23 @@ font-weight: 300;}
 
 h1
     {color: #da291c;
-    font-family: 'Ranchers', cursive;
-    text-align: justify;
-    text-transform: uppercase;}
+    font-family: "Ranchers";
+    text-align: justify;}
+
+#bobs
+    {text-transform: uppercase;}
+    
+#menu
+    {text-transform: uppercase;}
+
+#order-header
+    {text-transform: full-width;}
+
+#specials
+    {text-transform: uppercase;}
+
+#contact
+    {text-transform: uppercase;}
 
 h2 
     {color: #da291c;
@@ -31,13 +45,40 @@ h3
     {color: #ae2116;
     font-family:"Roboto";}
 
-p 
+.content
     {color: rgb(78, 78, 78);
     font-family:"Roboto-Light";
-    font-size: 18 px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px 0px 0px 0px;
+    border-top: 1px solid  rgb(238, 189, 97);
+}
+
+.content2
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto-Light";
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px 0px 0px 0px;}
+
+
+
+.content-foot
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto-Light";
+    font-size: 15px;
     text-align: justify;
     line-height: 30px;
     font-weight: 300;}
+
+.bold
+    {font-weight: bold;}
 
 
 td 
@@ -61,3 +102,39 @@ li
 tr 
     {color: rgb(78, 78, 78);
     font-family:"Roboto-Light";}
+
+.img-div{
+        background-color: rgb(241, 215, 165);
+ }
+
+#burger-home 
+        {width: 50px;}
+
+#impossible-burger
+        {width: 200px;
+        box-shadow: 3px 0 7px gray;}
+
+#veggie-burger
+        {width: 200px;
+        box-shadow: 3px 0 7px gray;}
+
+#seitan-surprise
+        {width: 200px;
+        box-shadow: 3px 0 7px gray;}
+
+#falafel-fantasy
+        {width: 200px;
+        box-shadow: 3px 0 7px gray;}
+
+#sea-no-evil
+        {width: 200px;
+        box-shadow: 3px 0 7px gray;}
+
+#order-now
+        {width: 300px;}
+
+.IMG
+    {
+    width: 14.4%; 
+    margin: 1%;}
+
