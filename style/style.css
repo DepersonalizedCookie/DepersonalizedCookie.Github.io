@@ -1,5 +1,5 @@
 body
-    {background-color: rgb(255, 255, 227);}
+    {background: url(../img/burger-pattern-grayish-2.png);}
 
 
 @font-face 
@@ -22,9 +22,27 @@ h1
     font-family: "Ranchers";
     text-align: justify;}
 
+
+#welcome
+        {text-align: center;}
+
 #bobs
-    {text-transform: uppercase;}
-    
+    {text-transform: uppercase;
+    text-align: center;}
+
+.content-foot-home
+{color: rgb(78, 78, 78);
+font-family:"Roboto-Light";
+font-size: 15px;
+text-align: justify;
+line-height: 30px;
+font-weight: 300;}
+
+table#table {
+    margin-left:43.5%; 
+    margin-right:43.5%;
+  }
+
 #menu
     {text-transform: uppercase;}
 
@@ -49,7 +67,7 @@ h3
     {color: rgb(78, 78, 78);
     font-family:"Roboto-Light";
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
     line-height: 30px;
     font-weight: 300;
     margin: 10px;
@@ -77,6 +95,7 @@ h3
     line-height: 30px;
     font-weight: 300;}
 
+
 .bold
     {font-weight: bold;}
 
@@ -100,10 +119,12 @@ li
     font-family:"Roboto-Light";}
 
 
-#hyperlink
+.hyperlink
         {font-family: "Roboto";
-        font-size: 24px;
-        font-weight: bold;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: rgb(211, 84, 53);
+        font-weight: bolder;
         text-align: center;}
 
 tr 
@@ -111,8 +132,7 @@ tr
     font-family:"Roboto-Light";}
 
 .img-div{
-        background-color: rgb(241, 215, 165);
- }
+        background-color: rgb(241, 215, 165);}
 
 #burger-home 
         {width: 50px;
