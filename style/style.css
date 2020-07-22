@@ -86,6 +86,16 @@ h3
     padding: 10px 0px 0px 0px;}
 
 
+.order-div
+        {padding: 15px;
+        border-top:  solid 1px  rgb(238, 189, 97);
+        color: rgb(78, 78, 78);
+        font-family: "Roboto";
+        font-size: 18px;}
+
+.order-div input
+        {display: block;
+        margin-bottom: 20px;}
 
 .content-foot
     {color: rgb(78, 78, 78);
