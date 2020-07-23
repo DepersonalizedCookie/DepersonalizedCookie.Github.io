@@ -19,27 +19,89 @@
     <h1 id="order-header">Place your order now!</h1>
 
     <div class="order-div">
-       
+    
+    
+    <form>
+
+        <fieldset id="personal-info">
+            <legend>Personal information</legend>
+
         <div class="form-group">
-            <label>Select Burger</label>
-            <input class="form-control" type="text" name="select-burger">
+            <label for="name">Name</label>
+            <input id="name" class="form-control" type="text" name="name">
+        </div>
+
+        <div class="form-group">
+            <label for="email-address">E-mail address</label>
+            <input id="email-address" class="form-control" type="text" name="email-address">
 
         </div>
         
         <div class="form-group">
-            <label>Address</label>
-            <input class="form-control" type="text" name="address">
+            <label for="address">Address</label>
+            <input id="address" class="form-control" type="text" name="address">
 
         </div>
+
+        <div class="form-group">
+            <label for="note">Note</label>
+            <textarea name="note" id="note" rows="5"></textarea>
+
+        </div>
+        </fieldset>
         
+
+        <fieldset id="order-info">
+        <legend>Order information</legend>
+        <div>
+            <label for="burger">Select your burger</label>
+            <select name="burger" id="burger">
+                <option value="3000">Impossible Burger</option>
+                <option value="2500">Victorious Veggie Burger</option>
+                <option value="2000">Seitan Surprise</option>
+                <option value="2300">Falafel Fantasy</option>
+                <option value="2800">Sea no Evil</option>
+            </select>
+        </div>
+        <div>
+            <label for="quantity">Quantity</label>
+            <input type="number" name="quantity" id="quantity" min="1" max="10" value="1">
+        </div>
+            
+        <span id="extra-topping">Extra topping</span>
+        <div class="check">
+            <label for="none">None</label>
+            <input checked id="none" name="extra" type="radio" value="0"> 
+        </div>
+        <div class="check">
+           <label for="tomato">Tomato</label>
+           <input id="tomato" name="extra" type="radio" value="250">  
+        </div>
+        <div class="check">
+            <label for="vegan-cheese">Vegan cheese</label>
+            <input id="vegan-cheese" name="extra" type="radio" value="500">
+        </div>
+        <div class="check">
+            <label for="pepper">Pepper</label>
+            <input id="pepper" name="extra" type="radio" value="200">
+        </div>
+        <div class="check">
+            <label for="hot-chili">Hot chili sauce</label>
+            <input  id="hot-chili" name="extra" type="radio" value="300"> 
+        </div>
+        <div class="check">
+            <label for="pickles">Pickles</label>
+            <input id="pickles" name="extra" type="radio" value="200">
+        </div>
+        </fieldset>
         <div class="form-group">
             <button class="confirm-btn">Confirm order!</button>
         </div> 
     
-    </div>
+        </div>
 
-
-
+        </form>
+       
 <p class="content-foot">&copy; 2020 Bob's vegan burgers</p>
 </body>
 </html>

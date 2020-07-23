@@ -27,8 +27,8 @@ h1
         {text-align: center;}
 
 #bobs
-    {text-transform: uppercase;
-    text-align: center;}
+    {position: relative;
+    left: 662px;}
 
 .content-foot-home
 {color: rgb(78, 78, 78);
@@ -54,6 +54,9 @@ table#table {
 
 #contact
     {text-transform: uppercase;}
+
+#bobert
+    {width: 150px;}
 
 h2 
     {color: #da291c;
@@ -97,6 +100,11 @@ h3
         {display: block;
         margin-bottom: 20px;}
 
+.order-div button {
+    position: relative;
+    top: 10px;
+}
+
 .order-div button:hover {
     box-shadow: 2px 2px 3px #c0c0c0;
     }
@@ -105,6 +113,23 @@ h3
   box-shadow: 2px 2px 3px #c0c0c0;
   border:none;
     }
+
+#note{
+    display: block;}
+.check
+    {padding: 0.3px;
+    position: relative;
+    top:20px;}
+
+#extra-topping
+    {position: relative;
+    top:20px;}
+
+#personal-info
+    {background-color:rgba(255, 255, 255, 0.5);}
+
+#order-info
+    {background-color:rgba(255, 255, 255, 0.5);}
     
 .content-foot
     {color: rgb(78, 78, 78);
