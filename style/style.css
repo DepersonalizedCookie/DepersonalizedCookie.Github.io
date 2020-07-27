@@ -178,41 +178,27 @@ tr
 .img-div{
         background-color: rgb(241, 215, 165);}
 
-#burger-home 
-        {width: 50px;
-        position: fixed;
-        top: 10px;
-        left: 1400px}
+
 
 #impossible-burger
         {width: 200px;
-        box-shadow: 3px 0 7px gray;
-        position: relative;
-        left: 1000px}
+        box-shadow: 3px 0 7px gray;}
 
 #veggie-burger
         {width: 200px;
-        box-shadow: 3px 0 7px gray;
-        position: relative;
-        left: 1000px}
+        box-shadow: 3px 0 7px gray;}
 
 #seitan-surprise
         {width: 200px;
-        box-shadow: 3px 0 7px gray;
-        position: relative;
-        left: 1000px}
+        box-shadow: 3px 0 7px gray;}
 
 #falafel-fantasy
         {width: 200px;
-        box-shadow: 3px 0 7px gray;
-        position: relative;
-        left: 1000px}
+        box-shadow: 3px 0 7px gray;}
 
 #sea-no-evil
         {width: 200px;
-        box-shadow: 3px 0 7px gray;
-        position: relative;
-        left: 1000px}
+        box-shadow: 3px 0 7px gray;}
 
 #order-now
         {width: 300px;}
