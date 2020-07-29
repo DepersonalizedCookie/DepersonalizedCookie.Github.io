@@ -24,11 +24,14 @@ h1
 
 
 #welcome
-        {text-align: center;}
+        {text-align: center;
+        position: relative;
+        top:20px;}
 
 #bobs
     {position: relative;
-    left: 662px;}
+    left: 662px;
+    top: 25px;}
 
 .content-foot-home
 {color: rgb(78, 78, 78);
@@ -38,9 +41,9 @@ text-align: justify;
 line-height: 30px;
 font-weight: 300;}
 
-table#table {
-    margin-left:43.5%; 
-    margin-right:43.5%;
+table.table {
+    position: relative;
+    top: 50px;
   }
 
 #menu
@@ -54,9 +57,6 @@ table#table {
 
 #contact
     {text-transform: uppercase;}
-
-#bobert
-    {width: 150px;}
 
 h2 
     {color: #da291c;
@@ -139,6 +139,9 @@ h3
     line-height: 30px;
     font-weight: 300;}
 
+.content-foot-home
+    {position: relative;
+    bottom:-100px;}
 
 .bold
     {font-weight: bold;}
@@ -152,11 +155,6 @@ td
 tfoot 
     {color: rgb(78, 78, 78);
     font-family:"Roboto-Light";}
-
-
-caption 
-    {color: rgb(78, 78, 78);
-    font-family:"Roboto";}
 
 li 
     {color: rgb(78, 78, 78);
@@ -177,7 +175,6 @@ tr
 
 .img-div{
         background-color: rgb(241, 215, 165);}
-
 
 
 #impossible-burger
