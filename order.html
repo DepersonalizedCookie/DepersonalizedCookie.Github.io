@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
 
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="home.html"><img width="50" src="img/burger.png" alt="Tasty Burger"></a>
@@ -38,97 +41,103 @@
         </div>
     </nav>
 
-    
+    <div class="content-divider">
 
-    <h1 id="order-header">Place your order now!</h1>
+        <h1 id="order-header">Place your order now!</h1>
 
-    <div class="order-div">
-    
-    
-    <form>
-        <div class="alert alert-primary" role="alert">
-            <str>Try our <a href="specials.html" class="alert-link">Father's Day Special</str></a> and get a free drink!
-          </div>
+        <div class="order-div">
 
-        <fieldset id="personal-info">
-            <legend>Personal information</legend>
 
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input id="name" class="form-control" type="text" name="name">
-        </div>
+            <form>
+                <div class="alert alert-primary" role="alert">
+                    <str>Try our <a href="specials.html" class="alert-link">Father's Day Special</str></a> and get a
+                    free drink!
+                </div>
 
-        <div class="form-group">
-            <label for="email-address">E-mail address</label>
-            <input id="email-address" class="form-control" type="text" name="email-address">
+                <fieldset id="personal-info">
+                    <legend>Personal information</legend>
 
-        </div>
-        
-        <div class="form-group">
-            <label for="address">Address</label>
-            <input id="address" class="form-control" type="text" name="address">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" class="form-control" type="text" name="name">
+                    </div>
 
-        </div>
+                    <div class="form-group">
+                        <label for="email-address">E-mail address</label>
+                        <input id="email-address" class="form-control" type="text" name="email-address">
 
-        <div class="form-group">
-            <label for="note">Note</label>
-            <textarea name="note" id="note" rows="5"></textarea>
+                    </div>
 
-        </div>
-        </fieldset>
-        
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input id="address" class="form-control" type="text" name="address">
 
-        <fieldset id="order-info">
-        <legend>Order information</legend>
-        <div>
-            <label for="burger">Select your burger</label>
-            <select name="burger" id="burger">
-                <option value="3000">Impossible Burger</option>
-                <option value="2500">Victorious Veggie Burger</option>
-                <option value="2000">Seitan Surprise</option>
-                <option value="2300">Falafel Fantasy</option>
-                <option value="2800">Sea no Evil</option>
-            </select>
-        </div>
-        <div>
-            <label for="quantity">Quantity</label>
-            <input type="number" name="quantity" id="quantity" min="1" max="10" value="1">
-        </div>
-            
-        <span id="extra-topping">Extra topping</span>
-        <div class="check">
-            <label for="none">None</label>
-            <input id="none" name="extra" type="radio" value="0"> 
-        </div>
-        <div class="check">
-           <label for="tomato">Tomato</label>
-           <input checked id="tomato" name="extra" type="checkbox" value="250">  
-        </div>
-        <div class="check">
-            <label for="vegan-cheese">Vegan cheese</label>
-            <input id="vegan-cheese" name="extra" type="checkbox" value="500">
-        </div>
-        <div class="check">
-            <label for="pepper">Pepper</label>
-            <input id="pepper" name="extra" type="checkbox" value="200">
-        </div>
-        <div class="check">
-            <label for="hot-chili">Hot chili sauce</label>
-            <input  id="hot-chili" name="extra" type="checkbox" value="300"> 
-        </div>
-        <div class="check">
-            <label for="pickles">Pickles</label>
-            <input id="pickles" name="extra" type="checkbox" value="200">
-        </div>
-        </fieldset>
-        <div class="form-group">
-            <button class="confirm-btn">Confirm order!</button>
-        </div> 
-    
+                    </div>
+
+                    <div class="form-group">
+                        <label for="note">Note</label>
+                        <textarea name="note" id="note" rows="5"></textarea>
+
+                    </div>
+                </fieldset>
+
+
+                <fieldset id="order-info">
+                    <legend>Order information</legend>
+                    <div>
+                        <label for="burger">Select your burger</label>
+                        <select name="burger" id="burger">
+                            <option value="3000">Impossible Burger</option>
+                            <option value="2500">Victorious Veggie Burger</option>
+                            <option value="2000">Seitan Surprise</option>
+                            <option value="2300">Falafel Fantasy</option>
+                            <option value="2800">Sea no Evil</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="quantity">Quantity</label>
+                        <input type="number" name="quantity" id="quantity" min="1" max="10" value="1">
+                    </div>
+
+                    <span id="extra-topping">Extra topping</span>
+                    <div class="check">
+                        <label for="none">None</label>
+                        <input id="none" name="extra" type="radio" value="0">
+                    </div>
+                    <div class="check">
+                        <label for="tomato">Tomato</label>
+                        <input checked id="tomato" name="extra" type="checkbox" value="250">
+                    </div>
+                    <div class="check">
+                        <label for="vegan-cheese">Vegan cheese</label>
+                        <input id="vegan-cheese" name="extra" type="checkbox" value="500">
+                    </div>
+                    <div class="check">
+                        <label for="pepper">Pepper</label>
+                        <input id="pepper" name="extra" type="checkbox" value="200">
+                    </div>
+                    <div class="check">
+                        <label for="hot-chili">Hot chili sauce</label>
+                        <input id="hot-chili" name="extra" type="checkbox" value="300">
+                    </div>
+                    <div class="check">
+                        <label for="pickles">Pickles</label>
+                        <input id="pickles" name="extra" type="checkbox" value="200">
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <button id="confirm-order" class="btn btn-success"><i class="fas fa-check"></i>  Confirm order!</i></button>
+                </div>
+
         </div>
 
         </form>
-       
-<p class="content-foot">&copy; 2020 Bob's vegan burgers</p>
+
+        <p class="content-foot">&copy; 2020 Bob's vegan burgers</p>
+
+    </div>
+
+
 </body>
+
 </html>
