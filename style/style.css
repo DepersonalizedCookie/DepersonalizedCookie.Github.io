@@ -12,6 +12,7 @@ body
     {
     width: 14.4%; 
     margin: 1%;}
+
     
 /*Font presettings*/
 
@@ -36,12 +37,16 @@ h1
     text-align: justify;}
 
 h2 
-    {color: #da291c;
+    {color: rgb(78, 78, 78);
     font-family:"Roboto";}
 
 h3 
-    {color: #ae2116;
+    {color: rgb(78, 78, 78);
     font-family:"Roboto";}
+
+h4
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto";}    
     
 .bold
     {font-weight: bold;}
@@ -89,6 +94,7 @@ table.table {
     top: 50px;
   }
 
+
 .content-foot-home
 {color: rgb(78, 78, 78);
 font-family:"Roboto-Light";
@@ -116,6 +122,25 @@ bottom:-100px;}
     padding: 10px 0px 0px 0px;
     border-top: 1px solid  rgb(238, 189, 97);
 }
+
+.contact-color
+    {background-color:rgba(255, 255, 255, 0.5);
+    width: 1200px;}
+
+.contact-form
+        {margin: 10px;
+        width: 400px;}
+
+.form-message
+            {margin: 10px;
+            width: 400px;}
+
+#send-message
+        {position: relative;
+        bottom: 10px;
+        left: -10px;
+        margin: 10px;
+        width:160px;}
 /*Specials*/
 
 #specials
@@ -134,6 +159,11 @@ bottom:-100px;}
     padding: 10px 0px 0px 0px;}
 
 
+.specials-color
+    {background-color:rgba(255, 255, 255, 0.5);
+    width: 1200px;}
+
+
 /*Order*/
 
 .alert-primary
@@ -141,6 +171,7 @@ bottom:-100px;}
 
 #order-header
     {text-transform: full-width;}
+
 .order-div
         {padding: 15px;
         border-top:  solid 1px  rgb(238, 189, 97);
@@ -180,11 +211,11 @@ bottom:-100px;}
 
 #personal-info
     {background-color:rgba(255, 255, 255, 0.5);
-    width: 1000px;}
+    width: 1200px;}
 
 #order-info
     {background-color:rgba(255, 255, 255, 0.5);
-    width: 1000px;}
+    width: 1200px;}
 
 #confirm-order
         {position: relative;
@@ -197,16 +228,59 @@ bottom:-100px;}
     {text-transform: uppercase;}
 
 
+.menu-items
+            {background-color:rgba(255, 255, 255, 0.5);
+            width: 1200px;}
+
+.content4
+    {color: rgb(78, 78, 78);
+    font-family:"Roboto-Light";
+    font-weight: 600;}
+
 .content3
     {color: rgb(78, 78, 78);
     font-family:"Roboto-Light";}
 
+
+.description
+        {   color: rgb(78, 78, 78);
+            font-family:"Roboto-Light";
+            padding:0px;
+            margin: 0px;
+            position: relative;
+            right: -208px;
+        }
+
+#Impossible-des
+        {position: relative;
+        bottom: 125px;}
+
+#Veggie-des
+            {position: relative;
+            bottom: 136px;}
+
+#seitan-des
+            {position: relative;
+            bottom: 153px;}
+
+#falafel-des
+                {position: relative;
+                bottom: 185px;}
+
+#sea-no-des
+            {position: relative;
+            bottom: 183px;}
+
 #price
         {position: relative;
-        top: -5px;}
+        bottom: 85px;
+        left: 600px;
+        }
 
-.img-div{
-        background-color: rgb(241, 215, 165);}
+#order-now
+        {position: relative;
+        bottom:40px;
+        left: 35px;}
 
 
 #impossible-burger

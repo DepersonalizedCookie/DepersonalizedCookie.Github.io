@@ -8,117 +8,103 @@
 
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="home.html"><img width="50" src="img/burger.png" alt="Tasty Burger"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="nav-div">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html"><img width="50" src="img/burger.png" alt="Tasty Burger"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="specials.html" tabindex="-1">Specials</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="specials.html" tabindex="-1">Specials</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </div>
 
     <div class="content-divider">
         <h1 id="menu">Menu</h1>
 
-        <ul>
 
-            <li><span class="bold">Impossible burger</span></li>
-            <p class="content3">Impossible burger with vegan bacon, fresh salad & pickles</p>
-            <button id="price" class="btn btn-success">3000 Ft</button>
+        <fieldset class="menu-items">
+            <ul>
 
-            <div class="img-div"><img id="impossible-burger" src="img/impossible-vegan-peta.jpg"
-                    alt="Impossible Burger"></div>
+                <p class="content4"><span class="bold">Impossible burger</span></p>
+                <div class="img"><img id="impossible-burger" src="img/impossible-vegan-peta.jpg"
+                        alt="Impossible Burger">
+                </div>
+                <p id="Impossible-des" class="description">Impossible burger, vegan bacon,</p>
+                <p id="Impossible-des" class="description">fresh salad, pickles</p>
 
-        </ul>
-
-        <ul>
-            <li><span class="bold">Victorious Veggie burger</span></li>
-            <p class="content3">A burger for champions, with a chickpea burger patty, salad and mushrooms</p>
-            <button id="price" class="btn btn-success">2500 Ft</button>
-
-            <div class="img-div"><img id="veggie-burger" src="img/chickpea-veggie-burgers-20-running-on-real-food.jpg"
-                    alt="Victorious Veggie Burger"></div>
-        </ul>
-
-        <ul>
-            <li><span class="bold">Seitan surprise</span></li>
-            <p class="content3">Seitan patty with vegan gouda & vegan sour cream</p>
-            <button id="price" class="btn btn-success">2000 Ft</button>
-
-            <div class="img-div"><img id="seitan-surprise" src="img/Seitan-burger-olive-magazine.jpg"
-                    alt="Seitan Surprise"></div>
-        </ul>
-
-        <ul>
-            <li><span class="bold">Falafel Fantasy</span></li>
-            <p class="content3">Traditonal falafel burger with vegan cheddar cheese</p>
-            <button id="price" class="btn btn-success">2300 Ft</button>
-
-            <div class="img-div"><img id="falafel-fantasy" src="img/falafel-burgers-bbc-good-food.jpg"
-                    alt="Falafel Fantasy"></div>
-        </ul>
-
-        <ul>
-            <li><span class="bold">Sea no Evil</span></li>
-            <p class="content3">Cruelty free seafood packaged in a bun</p>
-            <button id="price" class="btn btn-success">2800 Ft</button>
-
-            <div class="img-div"><img id="sea-no-evil" src="img/seanoevil.jpg" alt="Sea no Evil"></div>
-        </ul>
-
-        <h2>Toppings</h2>
-
-        <ul>
-
-            <li><span class="bold">Tomato</span></li>
-            <p class="content3">250 Ft</p>
-        </ul>
+                <button id="price" class="btn btn-success">3000 Ft<i class="fas fa-cart-arrow-down"></i></button>
 
 
-        <ul>
-            <li><span class="bold">Vegan cheese</span></li>
-            <p class="content3">500 Ft</p>
-        </ul>
 
-        <ul>
-            <li><span class="bold">Pepper</span></li>
-            <p class="content3">200 Ft</p>
-        </ul>
+            </ul>
+
+            <ul>
+                <p class="content4"><span class="bold">Victorious Veggie Burger</span></p>
+                <div class="img"><img id="veggie-burger" src="img/blackbean-veggie-burgers-jamie-oliver.jpg"
+                        alt="Victorious Veggie Burger"></div>
+                <p id="Veggie-des" class="description">Blackbean burger patty,</p>
+                <p id="Veggie-des" class="description">salad, mushrooms</p>
+
+                <button id="price" class="btn btn-success">2500 Ft<i class="fas fa-cart-arrow-down"></i></button>
+            </ul>
+
+            <ul>
+                <p class="content4"><span class="bold">Seitan surprise</span></p>
+                <div class="img"><img id="seitan-surprise" src="img/Seitan-burger-olive-magazine.jpg"
+                        alt="Seitan Surprise">
+                </div>
+                <p id="seitan-des" class="description">Seitan, vegan gouda,</p>
+                <p id="seitan-des" class="description">vegan sour cream</p>
 
 
-        <ul>
-            <li><span class="bold">Hot chili sauce</span></li>
-            <p class="content3">300 Ft</p>
-        </ul>
+                <button id="price" class="btn btn-success">2000 Ft<i class="fas fa-cart-arrow-down"></i></button>
+            </ul>
 
+            <ul>
+                <p class="content4"><span class="bold">Falafel Fantasy</span></p>
+                <div class="img"><img id="falafel-fantasy" src="img/falafel-burgers-bbc-good-food.jpg"
+                        alt="Falafel Fantasy"></div>
+                <p id="falafel-des" class="description">Falafel, vegan cheddar</p>
+                <p id="falafel-des" class="description">cheese, salad</p>
 
-        <ul>
-            <li><span class="bold">Pickles</span></li>
-            <p class="content3">200 Ft</p>
-        </ul>
+                <button id="price" class="btn btn-success">2300 Ft<i class="fas fa-cart-arrow-down"></i></button>
+            </ul>
+
+            <ul>
+                <p class="content4"><span class="bold">Sea no Evil</span></p>
+                <div class="img"><img id="sea-no-evil" src="img/filet-o-fish-5.jpg" alt="Sea no Evil"></div>
+                <p id="sea-no-des" class="description">Soy patty, shredded seaweed,</p>
+                <p id="sea-no-des" class="description">vegan cheese, mayo</p>
+
+                <button id="price" class="btn btn-success">2800 Ft<i class="fas fa-cart-arrow-down"></i></button>
+            </ul>
+        </fieldset>
 
         <div class="btn-div"><a id="order-now" target="blank" href="order.html"><button class="btn btn-danger">Place
                     your order now!</button></a></div>
