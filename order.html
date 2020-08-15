@@ -96,38 +96,18 @@
                         </select>
                     </div>
                     <div>
-                        <label for="quantity">Quantity</label>
-                        <input type="number" name="quantity" id="quantity" min="1" max="10" value="1">
-                    </div>
-
-                    <span id="extra-topping">Extra topping</span>
-                    <div class="check">
-                        <label for="none">None</label>
-                        <input id="none" name="extra" type="radio" value="0">
-                    </div>
-                    <div class="check">
-                        <label for="tomato">Tomato</label>
-                        <input checked id="tomato" name="extra" type="checkbox" value="250">
-                    </div>
-                    <div class="check">
-                        <label for="vegan-cheese">Vegan cheese</label>
-                        <input id="vegan-cheese" name="extra" type="checkbox" value="500">
-                    </div>
-                    <div class="check">
-                        <label for="pepper">Pepper</label>
-                        <input id="pepper" name="extra" type="checkbox" value="200">
-                    </div>
-                    <div class="check">
-                        <label for="hot-chili">Hot chili sauce</label>
-                        <input id="hot-chili" name="extra" type="checkbox" value="300">
-                    </div>
-                    <div class="check">
-                        <label for="pickles">Pickles</label>
-                        <input id="pickles" name="extra" type="checkbox" value="200">
+                        <label for="amount">Amount</label>
+                        <input type="number" name="amount" id="amount" min="1" max="10" value="1">
+                        <small class="form-text text-muted">
+                            Minimum 1, maximum 10 burgers.
+                        </small>
                     </div>
                 </fieldset>
                 <div class="form-group">
-                    <button id="confirm-order" class="btn btn-danger"><i class="fas fa-check"></i>Confirm
+                   Total: <span class="show-price">0</span> Ft
+                </div>
+                <div class="form-group">
+                    <button onclick="calcAmount()" type="button" id="confirm-order" class="btn btn-success"><i class="fas fa-check"></i>   Confirm
                         order!</i></button>
                 </div>
 
@@ -139,8 +119,11 @@
 
     </div>
 
+    
     <script src="js/main.js"></script>
-
+    <script src="js/personal.js"></script>
+    <script src="js/scope.js"></script>
+    
 </body>
 
 </html>
