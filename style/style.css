@@ -183,6 +183,13 @@ bottom:-100px;}
         {display: block;
         margin-bottom: 20px;}
 
+#email-address
+        {width: 800px;}
+#name
+        {width: 800px;}
+#address
+        {width: 800px;}
+
 .order-div button {
     position: relative;
     top: 10px;
@@ -197,25 +204,26 @@ bottom:-100px;}
   border:none;
     }
 
-#note{
-    display: block;}
+#note
+    {
+    display: block;
+    width: 800px;}
 
 .check
     {padding: 0.3px;
     position: relative;
     top:20px;}
 
-#extra-topping
+#min1max10
     {position: relative;
-    top:20px;}
+    bottom:10px;}
+
 
 #personal-info
-    {background-color:rgba(255, 255, 255, 0.5);
-    width: 1200px;}
+    {background-color:rgba(255, 255, 255, 0.5);}
 
 #order-info
-    {background-color:rgba(255, 255, 255, 0.5);
-    width: 1200px;}
+    {background-color:rgba(255, 255, 255, 0.5);}
 
 #confirm-order
         {position: relative;

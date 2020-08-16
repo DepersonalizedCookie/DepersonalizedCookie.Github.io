@@ -37,7 +37,7 @@
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
-                    class="fas fa-search"></i></button>
+                        class="fas fa-search"></i></button>
             </form>
         </div>
     </nav>
@@ -49,10 +49,14 @@
         <div class="order-div">
 
 
-            <form>
-                <div class="alert alert-primary alert-spec" role="alert">
-                    <str>Try our <a href="specials.html" class="alert-link">Father's Day Special</str></a> and get a
-                    free drink!
+            <form id="orderForm">
+
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <strong>Dear Customer!</strong> 
+                    Please fill out this form to make an order.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
 
                 <fieldset id="personal-info">
@@ -88,26 +92,31 @@
                     <div>
                         <label for="burger">Select your burger</label>
                         <select name="burger" id="burger">
-                            <option value="3000">Impossible Burger</option>
-                            <option value="2500">Victorious Veggie Burger</option>
+                            <option value="2000">Impossible Burger</option>
+                            <option value="2000">Victorious Veggie Burger</option>
                             <option value="2000">Seitan Surprise</option>
-                            <option value="2300">Falafel Fantasy</option>
-                            <option value="2800">Sea no Evil</option>
+                            <option value="2000">Falafel Fantasy</option>
+                            <option value="2000">Sea no Evil</option>
                         </select>
                     </div>
                     <div>
                         <label for="amount">Amount</label>
                         <input type="number" name="amount" id="amount" min="1" max="10" value="1">
-                        <small class="form-text text-muted">
+                        <small class="form-text text-muted" id="min1max10">
                             Minimum 1, maximum 10 burgers.
                         </small>
                     </div>
+                    <div>
+                        <label for="topping">Topping</label>
+                        <select name="topping" id="toppingSelect"></select>
+                    </div>
                 </fieldset>
                 <div class="form-group">
-                   Total: <span class="show-price">0</span> Ft
+                    Total: <span class="show-price">0</span> Ft
                 </div>
                 <div class="form-group">
-                    <button onclick="calcAmount()" type="button" id="confirm-order" class="btn btn-success"><i class="fas fa-check"></i>   Confirm
+                    <button type="submit" id="confirm-order" class="btn btn-success"><i class="fas fa-check"></i>
+                        Confirm
                         order!</i></button>
                 </div>
 
@@ -119,11 +128,11 @@
 
     </div>
 
-    
+
     <script src="js/main.js"></script>
     <script src="js/personal.js"></script>
     <script src="js/scope.js"></script>
-    
+
 </body>
 
 </html>
