@@ -1,0 +1,213 @@
+/* Affects the whole page*/
+body
+    {background: url(../resources/topography/topography.png);}
+
+.intro
+    {margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;}
+
+.definitions
+    {margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;}
+
+.credits
+{
+    margin-top: 550px;
+}
+
+.credits-wiki
+{
+    margin-top: 150px;
+}
+/* Navbar */
+.navbar-brand
+        {
+            width: 50%;
+            margin-left: 8%;
+            color: #333333;
+        }
+
+.navbar-img
+        {
+            width: 35px;
+        }
+
+
+.nav-text-active
+     {
+        color: #ff004f;
+        position: relative;
+        bottom: -10px;
+        text-decoration: underline;
+        font-weight: bolder;
+     }
+
+.nav-text-active:hover
+{
+    color: #a30062;
+}
+
+
+.nav-text:hover
+{
+    color: #a30062;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+.nav-text
+{
+    color: #ff0099;
+    position: relative;
+    bottom: -10px;
+    }
+
+/* Text preset */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 500;}
+
+@font-face {
+font-family: "Roboto-Light";
+src: url("../fonts/Roboto/Roboto-Light.ttf");
+font-weight: 300;}
+
+
+h1
+    {color: #141414;
+    font-family: "Roboto", consolas;
+    text-align: justify;}
+
+h2 
+    {color: #ff0099;
+    font-family:"Roboto",consolas;}
+
+h3 
+    {color: #ff0099;
+    font-family:"Roboto",consolas;}
+
+h4
+    {color: #ff0099;
+    font-family:"Roboto",consolas;}  
+    
+aside
+        {width: 40%;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        box-shadow: inset 5px 0 5px -5px #b81476;
+        font-size: 20px;
+        font-style: italic;
+        color: #ff90d3;
+        font-family: "Roboto", consolas;
+        position: relative;
+        left: 710px;
+        bottom: -20px;}
+
+aside > .first-def 
+{
+    margin: .5rem;
+}
+.bold
+    {font-weight: bold;}
+
+.text
+    {color: #141414;
+    font-family: "Roboto-light",consolas;}
+
+
+td 
+    {color: #141414;
+    font-family:"Roboto-Light",consolas;}
+
+
+tfoot 
+    {color: #141414;
+    font-family:"Roboto-Light",consolas;}
+
+li 
+    {color: #141414;
+    font-family:"Roboto-Light",consolas;}
+
+tr 
+    {color: #141414;
+    font-family:"Roboto-Light",consolas;}
+
+
+/* Homepage */
+
+.divider-line
+    {
+        position: relative;
+        bottom: -60px;
+        text-align: center;
+    }
+
+h1.definitions-title
+    {text-align: center;
+    position: relative;
+    bottom: -45px;}
+    
+
+
+.first-def
+    {position: relative;
+    bottom: -120px;}
+
+
+.second-def
+        {position: relative;
+        bottom: -90px;}
+
+.third-def
+
+    {position: relative;
+    bottom: -160px;}
+
+.fourth-def
+
+    {position: relative;
+    bottom: -223px;}
+
+.fifth-def
+
+    {position: relative;
+    bottom: -300px;}
+
+.sixth-def
+
+    {position: relative;
+    bottom: -380px;}
+
+
+/*Wiki*/
+.wiki
+        {padding-left: 10%;
+        padding-right: 10%;
+        position: relative;
+        bottom: -40px;}
+
+.wiki-title
+            {margin-top: 100px;
+            margin-bottom: 20px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-decoration: underline;
+            text-transform: uppercase;}
+.lorem-title
+  {
+      margin-bottom: 18px;
+
+  }
+
+
+.lorem-section
+
+{
+    position: relative;
+    bottom: -40px;
+}
