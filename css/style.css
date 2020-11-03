@@ -1,4 +1,4 @@
-/* Affects the whole page*/
+/* Affects the whole page: bc and formatting*/
 body
     {background: url(../resources/topography/topography.png);}
 
@@ -12,30 +12,23 @@ body
     padding-left: 10%;
     padding-right: 10%;}
 
-.credits
-{
-    margin-top: 550px;
-}
 
-.credits-wiki
-{
-    margin-top: 150px;
-}
-/* Navbar */
-.navbar-brand
+    /* Affects the whole page: Navbar */
+
+    .navbar-brand
         {
             width: 50%;
             margin-left: 8%;
             color: #333333;
         }
 
-.navbar-img
+    .navbar-img
         {
             width: 35px;
         }
 
 
-.nav-text-active
+    .nav-text-active
      {
         color: #ff004f;
         position: relative;
@@ -44,28 +37,28 @@ body
         font-weight: bolder;
      }
 
-.nav-text-active:hover
-{
+    .nav-text-active:hover
+    {
     color: #a30062;
-}
+    }
 
 
-.nav-text:hover
-{
+    .nav-text:hover
+    {
     color: #a30062;
     text-decoration: underline;
     font-weight: bolder;
-}
+    }
 
 
-.nav-text
-{
+    .nav-text
+    {
     color: #ff0099;
     position: relative;
     bottom: -10px;
     }
 
-/* Text preset */
+/* Affects the whole page: Text presets */
 
 @font-face {
     font-family: "Roboto";
@@ -95,23 +88,6 @@ h4
     {color: #ff0099;
     font-family:"Roboto",consolas;}  
     
-aside
-        {width: 40%;
-        padding-left: .5rem;
-        padding-right: .5rem;
-        box-shadow: inset 5px 0 5px -5px #b81476;
-        font-size: 20px;
-        font-style: italic;
-        color: #ff90d3;
-        font-family: "Roboto", consolas;
-        position: relative;
-        left: 710px;
-        bottom: -20px;}
-
-aside > .first-def 
-{
-    margin: .5rem;
-}
 .bold
     {font-weight: bold;}
 
@@ -138,7 +114,7 @@ tr
     font-family:"Roboto-Light",consolas;}
 
 
-/* Homepage */
+/* Index */
 
 .divider-line
     {
@@ -147,11 +123,28 @@ tr
         text-align: center;
     }
 
+aside
+    {width: 40%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    box-shadow: inset 5px 0 5px -5px #b81476;
+    font-size: 20px;
+    font-style: italic;
+    color: #ff90d3;
+    font-family: "Roboto", consolas;
+    position: relative;
+    left: 710px;
+    bottom: -20px;}
+
+aside > .first-def 
+{
+margin: .5rem;
+}
+
 h1.definitions-title
     {text-align: center;
     position: relative;
     bottom: -45px;}
-    
 
 
 .first-def
@@ -183,31 +176,35 @@ h1.definitions-title
     {position: relative;
     bottom: -380px;}
 
+.credits
+    {
+        margin-top: 550px;
+    }
+
 
 /*Wiki*/
+
 .wiki
         {padding-left: 10%;
-        padding-right: 10%;
-        position: relative;
-        bottom: -40px;}
+        padding-right: 10%;}
 
 .wiki-title
-            {margin-top: 100px;
-            margin-bottom: 20px;
-            padding-left: 10%;
-            padding-right: 10%;
+            {margin-bottom: 20px;
             text-decoration: underline;
             text-transform: uppercase;}
 .lorem-title
   {
       margin-bottom: 18px;
-
   }
-
 
 .lorem-section
 
 {
     position: relative;
     bottom: -40px;
+}
+
+.credits-wiki
+{
+    margin-top: 150px;
 }
