@@ -1,0 +1,165 @@
+/* Background and formating*/
+body
+    {background: url(assets/topography/topography.png);
+    line-height: 2em;}
+
+.content
+    {margin-top: 126px;}
+
+article
+    {padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;}
+
+h2
+        {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+h2.content
+        {
+            margin-bottom: 50px;
+        }
+
+.line
+    {
+        position: relative;
+        top: 82px;
+        text-align: center;
+    }
+
+
+.title
+    {text-align: center;
+    position: relative;
+    top: 72px;}
+
+
+.def
+    {
+        position: relative;
+        top: 170px;
+    }
+
+
+
+.credits
+    {
+        margin-top: 300px;
+        margin-left: 0px;
+        color: white;
+    }
+
+
+div.footer
+    {
+        width: 100%;
+        background-color: #ff004f;
+    }
+
+/* Navbar */
+nav
+        {   
+            width: 100%;
+            background-color: #333;
+            position: sticky;
+        }
+    
+.navbar-img
+        {
+            width: 35px;
+            float: left;
+            position: relative;
+            right: 82px;
+            top: 5px;
+        }
+
+li
+        {display: inline;
+        float: right;
+        padding-left: 30px;
+       
+    }
+
+ul
+
+    {
+        position: relative;
+        bottom: 43px;
+    }
+
+div {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+.nav-text-active
+     {
+        color: #ff004f;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-family:"Roboto-Light",'Courier New', Courier, monospace;
+     }
+
+.nav-text-active:hover
+    {
+    color: #a30062;
+    }
+
+
+.nav-text:hover
+    {
+    color: #a30062;
+    text-decoration: underline;
+    font-weight: bolder;
+    }
+
+
+.nav-text
+    {
+    color: #ff0099;
+    font-family:"Roboto-Light",'Courier New', Courier, monospace;}
+
+/*Text presets */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/Roboto/Roboto-Regular.ttf");
+    font-weight: 500;}
+
+@font-face {
+font-family: "Roboto-Light";
+src: url("assets/Roboto/Roboto-Light.ttf");
+font-weight: 300;}
+
+
+h1
+    {color: #141414;
+    font-family: "Roboto", 'Courier New', Courier, monospace;
+    text-align: justify;}
+
+h2 
+    {color: #ff0099;
+    font-family:"Roboto",'Courier New', Courier, monospace;}
+
+h3 
+    {color: #ff0099;
+    font-family:"Roboto",'Courier New', Courier, monospace;}
+
+h4
+    {color: #ff0099;
+    font-family:"Roboto",'Courier New', Courier, monospace;}  
+    
+.bold
+    {font-weight: bold;}
+
+p
+        {
+            color: #141414;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
