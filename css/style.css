@@ -1,49 +1,117 @@
-/* Affects the whole page: bc and formatting*/
+/* Background and formating*/
 body
-    {background: url(../resources/topography/topography.png);}
+    {background: url(../resources/topography/topography.png);
+    line-height: 2em;}
 
-.intro
-    {margin-top: 100px;
-    padding-left: 10%;
-    padding-right: 10%;}
+.content
+    {margin-top: 126px;}
 
-.definitions
-    {margin-top: 100px;
-    padding-left: 10%;
-    padding-right: 10%;}
+article
+    {padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;}
 
-
-    /* Affects the whole page: Navbar */
-
-    .navbar-brand
+h2
         {
-            width: 50%;
-            margin-left: 8%;
-            color: #333333;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
-    .navbar-img
+h2.content
+        {
+            margin-bottom: 50px;
+        }
+
+.line
+    {
+        position: relative;
+        top: 82px;
+        text-align: center;
+    }
+
+
+.title
+    {text-align: center;
+    position: relative;
+    top: 72px;}
+
+
+.def
+    {
+        position: relative;
+        top: 170px;
+    }
+
+
+
+.credits
+    {
+        margin-top: 300px;
+        margin-left: 0px;
+        color: white;
+    }
+
+
+div.footer
+    {
+        width: 100%;
+        background-color: #ff004f;
+    }
+
+/* Navbar */
+nav
+        {   
+            width: 100%;
+            background-color: #333;
+            position: sticky;
+        }
+    
+.navbar-img
         {
             width: 35px;
+            float: left;
+            position: relative;
+            right: 82px;
+            top: 5px;
         }
 
+li
+        {display: inline;
+        float: right;
+        padding-left: 30px;
+       
+    }
 
-    .nav-text-active
+ul
+
+    {
+        position: relative;
+        bottom: 43px;
+    }
+
+div {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+.nav-text-active
      {
         color: #ff004f;
-        position: relative;
-        bottom: -10px;
         text-decoration: underline;
         font-weight: bolder;
+        font-family:"Roboto-Light",'Courier New', Courier, monospace;
      }
 
-    .nav-text-active:hover
+.nav-text-active:hover
     {
     color: #a30062;
     }
 
 
-    .nav-text:hover
+.nav-text:hover
     {
     color: #a30062;
     text-decoration: underline;
@@ -51,14 +119,12 @@ body
     }
 
 
-    .nav-text
+.nav-text
     {
     color: #ff0099;
-    position: relative;
-    bottom: -10px;
-    }
+    font-family:"Roboto-Light",'Courier New', Courier, monospace;}
 
-/* Affects the whole page: Text presets */
+/*Text presets */
 
 @font-face {
     font-family: "Roboto";
@@ -73,138 +139,27 @@ font-weight: 300;}
 
 h1
     {color: #141414;
-    font-family: "Roboto", consolas;
+    font-family: "Roboto", 'Courier New', Courier, monospace;
     text-align: justify;}
 
 h2 
     {color: #ff0099;
-    font-family:"Roboto",consolas;}
+    font-family:"Roboto",'Courier New', Courier, monospace;}
 
 h3 
     {color: #ff0099;
-    font-family:"Roboto",consolas;}
+    font-family:"Roboto",'Courier New', Courier, monospace;}
 
 h4
     {color: #ff0099;
-    font-family:"Roboto",consolas;}  
+    font-family:"Roboto",'Courier New', Courier, monospace;}  
     
 .bold
     {font-weight: bold;}
 
-.text
-    {color: #141414;
-    font-family: "Roboto-light",consolas;}
+p
+        {
+            color: #141414;
+            font-family: 'Courier New', Courier, monospace;
+        }
 
-
-td 
-    {color: #141414;
-    font-family:"Roboto-Light",consolas;}
-
-
-tfoot 
-    {color: #141414;
-    font-family:"Roboto-Light",consolas;}
-
-li 
-    {color: #141414;
-    font-family:"Roboto-Light",consolas;}
-
-tr 
-    {color: #141414;
-    font-family:"Roboto-Light",consolas;}
-
-
-/* Index */
-
-.divider-line
-    {
-        position: relative;
-        bottom: -60px;
-        text-align: center;
-    }
-
-aside
-    {width: 40%;
-    padding-left: .5rem;
-    padding-right: .5rem;
-    box-shadow: inset 5px 0 5px -5px #b81476;
-    font-size: 20px;
-    font-style: italic;
-    color: #ff90d3;
-    font-family: "Roboto", consolas;
-    position: relative;
-    left: 710px;
-    bottom: -20px;}
-
-aside > .first-def 
-{
-margin: .5rem;
-}
-
-h1.definitions-title
-    {text-align: center;
-    position: relative;
-    bottom: -45px;}
-
-
-.first-def
-    {position: relative;
-    bottom: -120px;}
-
-
-.second-def
-        {position: relative;
-        bottom: -90px;}
-
-.third-def
-
-    {position: relative;
-    bottom: -160px;}
-
-.fourth-def
-
-    {position: relative;
-    bottom: -223px;}
-
-.fifth-def
-
-    {position: relative;
-    bottom: -300px;}
-
-.sixth-def
-
-    {position: relative;
-    bottom: -380px;}
-
-.credits
-    {
-        margin-top: 550px;
-    }
-
-
-/*Wiki*/
-
-.wiki
-        {padding-left: 10%;
-        padding-right: 10%;}
-
-.wiki-title
-            {margin-bottom: 20px;
-            text-decoration: underline;
-            text-transform: uppercase;}
-.lorem-title
-  {
-      margin-bottom: 18px;
-  }
-
-.lorem-section
-
-{
-    position: relative;
-    bottom: -40px;
-}
-
-.credits-wiki
-{
-    margin-top: 150px;
-}
